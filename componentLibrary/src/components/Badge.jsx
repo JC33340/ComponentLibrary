@@ -1,8 +1,8 @@
 
-export default function Badge(){
+export default function Badge({children,shape,color}){
     return(
-        <>
-        "NO SAUCE"
-        </>
+        <div className = {`badge ${shape} ${color}`}>
+            {children}
+        </div>
     )
 }
