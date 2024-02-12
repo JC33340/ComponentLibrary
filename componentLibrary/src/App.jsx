@@ -51,7 +51,10 @@ function App() {
 
       <div className = 'component-wrapper'>
         <h1>Cards</h1>
-        <Card />
+        <Card>
+          <header>Lorem Ipsum</header>
+          <span>Nulla facilisi. Donec mollis quam lorem, sed interdum nisl accumsan in. Donec imperdiet arcu et orci vulputate, et accumsan sem elementum. Proin semper rutrum leo sed blandit. Nulla maximus mollis consectetur. Praesent interdum libero purus, ac convallis dui mattis a. Donec sollicitudin tellus eu dolor pellentesque rhoncus. Sed nec lectus congue, tincidunt lorem id, ultrices purus. Donec aliquet lacus eu rutrum accumsan.</span>
+        </Card>
       </div>
     </>
   )

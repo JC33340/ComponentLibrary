@@ -63,6 +63,7 @@ body{
     width: 900px;
     text-align: justify;
     margin: 10px;
+    border-radius: 5px;
 }
 
 .banner>span{
@@ -70,4 +71,44 @@ body{
 }
 .banner>header{
     font-weight: 500;
+}
+
+.card{
+    background-color: #F9FAFB;
+    width: 384px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+}
+
+.card-extended{
+    background-color: #3F75FE;
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    margin-top: -24px;
+    border-radius: 2px;
+    box-shadow: 0 4px 5px 2px #d0cccc;
+}
+
+.card-content{
+    padding:5rem 2rem 2rem 2rem;
+    font-weight: 200;
+    font-size: 16px;
+    text-align: center;
+}
+
+.card:hover{
+    box-shadow: 0px 4px 5px 2px lightgrey;
+}
+
+.card-content>header{
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.card-content>span{
+    color:#6B7280;
 }

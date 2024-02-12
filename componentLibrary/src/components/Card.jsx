@@ -1,7 +1,11 @@
-export default function Card(){
+export default function Card({children}){
     return (
-        <>
-        Card
-        </>
+        <div className = "card">
+            <div className = "card-extended">
+            </div>
+            <div className = "card-content">
+                {children}
+            </div>
+        </div>
     )
 }
