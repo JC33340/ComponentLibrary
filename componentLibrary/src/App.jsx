@@ -3,6 +3,7 @@ import './App.css'
 import Badge from "./components/Badge"
 import Banner from "./components/Banner"
 import Card from "./components/Card"
+import Testimonial from "./components/Testimonial"
 
 function App() {
 
@@ -55,6 +56,17 @@ function App() {
           <header>Lorem Ipsum</header>
           <span>Nulla facilisi. Donec mollis quam lorem, sed interdum nisl accumsan in. Donec imperdiet arcu et orci vulputate, et accumsan sem elementum. Proin semper rutrum leo sed blandit. Nulla maximus mollis consectetur. Praesent interdum libero purus, ac convallis dui mattis a. Donec sollicitudin tellus eu dolor pellentesque rhoncus. Sed nec lectus congue, tincidunt lorem id, ultrices purus. Donec aliquet lacus eu rutrum accumsan.</span>
         </Card>
+      </div>
+
+      <div className = "component-wrapper">
+        <h1>Testimonial</h1>
+        <Testimonial 
+          img = "https://images.squarespace-cdn.com/content/v1/5c4d7e227e3c3a6ec70a5ac7/1549195524586-CME2N96PTXMCQQP0RBN6/Sir+Patrick+Stewart+Portrait+Sitting+2014-14-05-+%284+of+4%29.jpg?format=750w"
+          name = "Jason Chan"
+          company = "Scrimba"
+        >
+          <span>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”</span>
+        </Testimonial>
       </div>
     </>
   )
